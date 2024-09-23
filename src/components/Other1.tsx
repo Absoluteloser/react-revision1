@@ -24,6 +24,7 @@ const Other1 = () => {
         //     left: clicks.left,
         //     right: clicks.right + 1
         // }
+        //first use the variable to store the updated value and then update the state
         const newclicks={
             ...clicks,right:clicks.right+1
         }
